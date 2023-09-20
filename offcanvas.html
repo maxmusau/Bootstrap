@@ -1,0 +1,37 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Offcanvas</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+        <div class="container mt-5">
+
+
+            <a href="#myoffcanvass" class="btn btn-primary"
+                data-bs-toggle="offcanvas"> Launch Offcanvas</a>
+
+            <!-- offcanvas -->
+            <div class="offcanvas offcanvas-end" id="myoffcanvass">
+                <div class="offcanvas-header">
+                    <h2 class="offcanvas-title">Our Services</h2>
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="list-group shadow">
+                        <li class="list-group-item mb-2  shadow"><a href="" class="text-dark">Dry cleaning</a></li>
+                        <li class="list-group-item mb-2 shadow">Ironing Clothes</li>
+                        <li class="list-group-item mb-2 shadow">Repairing clothes</li>
+                        <li class="list-group-item mb-2 shadow">Cleaning the house</li>
+                        <button class="btn d-inline-flex collapsed" data-bs-toggle="collapse" ><span class="collapse-icon"></span> home</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

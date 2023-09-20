@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <!-- create a button with type 'button' and text 'Launch modal' -->
+    <div class="container mt-5">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal">Launch Modal</button>
+
+    <!-- modal -->
+    <div class="modal fade" id="mymodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Confirmation!!</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure you want to delete this item?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                    <button class="btn btn-danger" type="submit">Delete</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- second modal -->
+    <div class="container mt-5">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target=".centeredmodal">Centered modal</button>
+
+        <div class="modal fade centeredmodal"  data-bs-backdrop="static">            
+            <div class="modal-dialog modal-dialog-centered " style="border-radius: 25px;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Register User</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <label class="me-5" for="">Username</label>
+                            <input type="text"><br><br>
+
+                            <label class="me-5" for="">Email</label>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email"><br><br>
+
+                            <label class="me-5" for="">Phone</label>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel"><br><br>
+
+                            <label for="" class="me-5">Password</label>
+                            &nbsp;&nbsp;&nbsp;<input type="password"><br><br>
+
+                            <label for="">Confirm Password</label>
+                            &nbsp;&nbsp;&nbsp;<input type="password"><br><br>
+                            <br>
+                            <center>
+                                <input type="submit" value="Signup" class="btn btn-success btn-lg " >
+                            </center>
+                          
+                        </form>
+                    </div>         
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+</div>
+</body>
+</html>

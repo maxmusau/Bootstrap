@@ -1,0 +1,95 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Button Group</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <!-- btn group-having a group of buttons together -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Button1</button>
+                <button type="button" class="btn btn-primary">Button1</button>
+                <button type="button" class="btn btn-primary">Button1</button>
+            </div>
+            <br><br>
+            <h2>make one of the buttons to be active</h2>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary active">Button1</button>
+                <button type="button" class="btn btn-primary">Button1</button>
+                <button type="button" class="btn btn-primary">Button1</button>
+            </div>
+
+            <h2>use different background colors</h2>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-success active">Button1</button>
+                <button type="button" class="btn btn-info">Button1</button>
+                <button type="button" class="btn btn-secondary">Button1</button>
+            </div>
+            <h3>use diff elements </h3>
+            <!-- use different elements -->
+            <div class="btn-group">
+                <a href="" class="btn btn-success"> link 1</a>
+                <a href="" class="btn btn-success"> link 2</a>
+                <a href="" class="btn btn-success"> link 3</a>
+            </div>
+            <h3>create btn group with outline</h3>
+            <div class="btn-group">
+                <button type="button" class="btn btn-outline-success ">Button1</button>
+                <button type="button" class="btn btn-outline-info">Button1</button>
+                <button type="button" class="btn btn-outline-secondary active">Button1</button>
+            </div>
+            <br><br>
+            <caption>Select Your favourite subjects</caption>
+            <!-- check box in a button -->
+            <br>
+            <div class="btn-group">
+                <input type="checkbox" class="btn-check " id="physics">
+                <label for="physics" class="btn btn-outline-primary me-2">Physics</label>
+                <input type="checkbox" class="btn-check " id="Chemistry">
+                <label for="Chemistry" class="btn btn-outline-info me-2">Chemistry</label>
+                <input type="checkbox" class="btn-check " id="biology">
+                <label for="biology" class="btn btn-outline-success">Biology</label>
+            </div>
+            <br><br>
+            <caption>Select Your Gender</caption>
+            <!-- check box in a button -->
+            <br>
+            <div class="btn-group">
+                <input type="radio" name="gender" class="btn-check " id="male">
+                <label for="male" class="btn btn-outline-primary me-2">Male</label>
+                <input type="radio" name="gender" class="btn-check "
+                    id="female">
+                <label for="female" class="btn btn-outline-info me-2">Female</label>
+            </div>
+            <br><br>
+            <!-- creating a toolbar using btn group -->
+            <div class="btn-toolbar">
+                <div class="btn-group me-3">
+                    <button type="button" class="btn btn-outline-success ">1</button>
+                    <button type="button" class="btn btn-outline-info">2</button>
+                    <button type="button" class="btn btn-outline-secondary ">3</button>
+                    <button type="button" class="btn btn-outline-warning ">4</button>
+                    <button type="button" class="btn btn-outline-secondary ">5</button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-outline-warning ">6</button>
+                    <button type="button" class="btn btn-outline-warning ">7</button>
+                    <button type="button" class="btn btn-outline-warning ">8</button>
+                </div>
+            </div>
+
+            <!-- close button -used for dismissing contents -->
+            <button type="button" class="btn-close"></button>
+            <br>
+            <a href="" class="btn ">&times;</a>
+            <button type="button" class="btn-close" disabled></button>
+            
+        </div>
+    </body>
+</html>

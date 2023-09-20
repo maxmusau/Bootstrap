@@ -1,0 +1,55 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BreadCrumb</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/bootstrap.js"></script>
+        <style>
+            a{
+                text-decoration: none;
+            }
+        </style>
+
+    </head>
+    <body>
+        <!-- breadcrumb -->
+        <!-- indicates the location of the current page  within a navigation hierachy -->
+        <div class="container-fluid" >
+
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active"><a href="">Home</a></li>
+                </ol>
+            </nav>
+
+            <!-- example two -->
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="">Home</a></li>
+                    <li class="breadcrumb-item active"><a href="">Services</a></li>
+                </ol>
+            </nav>
+
+            <!-- example 3 -->
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="">Home</a></li>
+                    <li class="breadcrumb-item"><a href="">Services</a></li>
+                    <li class="breadcrumb-item active"><a href="">Printing</a></li>
+                </ol>
+            </nav>
+
+            <!-- divider -->
+            <nav style="--bs-breadcrumb-divider:'>';">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="">Home</a></li>
+                    <li class="breadcrumb-item"><a href="">Services</a></li>
+                    <li class="breadcrumb-item active"><a href="">Printing</a></li>
+                </ol>
+            </nav>
+
+        </div>  
+    </body>
+</html>

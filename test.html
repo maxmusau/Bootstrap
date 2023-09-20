@@ -1,0 +1,46 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TOasts</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/bootstrap.js"></script>  
+    </head>
+    <body>
+        <div class="container">
+            <button type="button" class="btn btn-primary" id="liveToastBtn">Launch</button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast">
+                    <div class="toast-header">
+                        <h5 class="me-auto">UNICEF scholarships</h5>
+                        <b>20mins ago</b>
+                        <button type="button" class="btn-close"
+                            data-bs-dismiss="toast"></button>
+                    </div>
+                    <div class="toast-body">
+                        <p>Study Online with a Unicaf Scholarships for an
+                            Accredited
+                            Master's or Doctoral Degree.
+                            https://shorturl.at/bnCFL
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+           
+const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+
+if (toastTrigger) {
+const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+toastTrigger.addEventListener('click', () => {
+    toastBootstrap.show()
+})
+}
+        </script>
+    </body>
+</html>

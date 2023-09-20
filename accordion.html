@@ -1,0 +1,89 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accordion</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+        <!-- accordion -->
+
+        <div class="container-fluid w-75 mx-auto " style="margin-top: 100px;">
+            <div class="accordion accordion-flush" id="myaccordion">
+                <!-- first item -->
+                <div class="accordion-item ">
+                    <h2 class="accordion-header" id="">
+                        <button type="button" class="accordion-button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#content1">Section 1</button>
+                    </h2>
+
+                    <div id="content1" class="collapse"
+                        data-bs-parent="#myaccordion">
+                        <div class="accordion-body">
+                            <!-- content -->
+                            <i>Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Culpa accusantium libero earum
+                                error at. Quaerat, quam, voluptas labore
+                                doloribus velit qui necessitatibus repudiandae
+                                blanditiis itaque sunt incidunt fugiat quos
+                                quod.</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of first accordion item -->
+                <!-- second item -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="">
+                        <button type="button" class="accordion-button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#content2">Section 2</button>
+                    </h2>
+
+                    <div id="content2" class=" collapse"
+                        data-bs-parent="#myaccordion">
+                        <div class="accordion-body">
+                            <!-- content -->
+                            <i>Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Ipsum quasi voluptatem ea
+                                animi sint temporibus debitis dignissimos, quas
+                                minima expedita cupiditate tempora asperiores
+                                dolores nobis soluta at numquam, pariatur
+                                distinctio.</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of second item -->
+                <!-- third accordion -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="">
+                        <button type="button" class="accordion-button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#content3">Section 3</button>
+                    </h2>
+
+                    <div id="content3" class=" collapse"
+                        data-bs-parent="#myaccordion">
+                        <div class="accordion-body">
+                            <!-- content -->
+                            <i>Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Ipsum quasi voluptatem ea
+                                animi sint temporibus debitis dignissimos, quas
+                                minima expedita cupiditate tempora asperiores
+                                dolores nobis soluta at numquam, pariatur
+                                distinctio.</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of third accordion -->
+            </div>
+            <!-- end of accordion -->
+        </div>
+
+
+
+
+    </body>
+</html>
